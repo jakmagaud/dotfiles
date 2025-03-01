@@ -1,0 +1,57 @@
+{
+    //"workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorCustomizations": {
+        //"foreground": "#f96e0c",
+        "widget.shadow": "E00D0D",
+        //"selection.background": "ff00000",
+        //"descriptionForeground": "#ff0000",
+        // "errorForeground": "#ff0000",
+        // "icon.foreground": "#ff0000",
+        // "sash.hoverBorder": "#ff0000",
+        //"textBlockQuote.background": "#ff0000",
+        // "textBlockQuote.border": "#ff0000",
+        // "textCodeBlock.background": "#ff0000",
+        //"textLink.activeForeground": "#ff0000",
+        // "textLink.foreground": "#ff0000,"
+        "editor.background": "#000000",
+        //"editor.foreground": "#ffffff",
+        "editor.selectionBackground": "#007a10",
+        "editor.selectionHighlightBackground": "#007a10",
+        "editor.findMatchBackground": "#007a10",
+        "editor.findMatchHighlightBackground": "#007a10",
+        "editor.wordHighlightBackground": "#007a10"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#b28dff",
+        "functions": {
+            "foreground": "#00dffd",
+            "fontStyle": "bold"
+        },
+        "keywords": "#80fcc6",
+        "numbers": "#9458f5",
+        "strings": "#f88ee1",
+        "types": "#00ffdd",
+        "variables": "#58a5f7",
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.tag.yaml",
+                    "support.type.property-name.json.comments"
+                ],
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+
+    "editor.acceptSuggestionOnEnter": "off",
+    "liveshare.accessibility.soundsEnabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.fontWeight": "normal",
+    "go.toolsManagement.autoUpdate": true
+}
